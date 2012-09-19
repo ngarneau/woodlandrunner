@@ -22,7 +22,7 @@ test:
 
 production:
   adapter: mysql
-  database: mysql://app7735272:YwfCdnKu@instance27005.db.xeround.com.:17695/app7735272
+  database: mysql://app7735272:YwfCdnKu@int.instance27005.db.xeround.com.:17695/app7735272
   pool: 5
   timeout: 5000
   username: app7735272
