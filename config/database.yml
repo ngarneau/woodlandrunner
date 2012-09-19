@@ -21,8 +21,9 @@ test:
   username: root
 
 production:
-  adapter: mysql2
-  database: woodlandrunnerprod
+  adapter: mysql
+  database: mysql://app7735272:YwfCdnKu@instance27005.db.xeround.com.:17695/app7735272
   pool: 5
   timeout: 5000
-  username: root
+  username: app7735272
+  password: YwfCdnKu
